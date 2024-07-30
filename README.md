@@ -32,6 +32,7 @@ mern-employee-management/
 │   │   │   ├── Dashboard.js
 │   │   │   ├── EditEmployee.js
 │   │   │   └── Login.js
+|   |   |   └── Register.js
 │   │   ├── App.css
 │   │   ├── index.js
 │   │   └── setupProxy.js
