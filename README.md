@@ -25,7 +25,7 @@ mern-employee-management/
 ├── frontend/
 │   ├── public/
 │   │   └── index.html
-│   ├── src/
+│── src/
 │   │   ├── components/
 │   │   │   ├── App.js
 │   │   │   ├── CreateEmployee.js
