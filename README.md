@@ -35,11 +35,11 @@ mern-employee-management/
 │   │   ├── App.css
 │   │   ├── index.js
 │   │   └── setupProxy.js
+|   |── package.json
 ├── uploads/
 ├── .env
 ├── .gitignore
 ├── README.md
-├── package.json
 └── package-lock.json
 ```
 
