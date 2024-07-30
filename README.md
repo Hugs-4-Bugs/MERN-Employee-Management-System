@@ -9,7 +9,7 @@ This project is a MERN stack application for managing employee records. It inclu
 ## Project Structure
 
 
-``
+```
 mern-employee-management/
 ├── backend/
 │   ├── middleware/
@@ -41,7 +41,7 @@ mern-employee-management/
 ├── README.md
 ├── package.json
 └── package-lock.json
-``
+```
 
 ### Backend
 
