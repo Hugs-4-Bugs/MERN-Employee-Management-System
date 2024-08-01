@@ -23,6 +23,10 @@ mern-employee-management/
 │   │   └── users.js
 │   └── server.js
 ├── frontend/
+│   ├── build/
+│   │   ├── static/
+│   │   │   └── asset-manifest.json
+│   │   └── index.html
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
@@ -32,16 +36,19 @@ mern-employee-management/
 │   │   │   ├── Dashboard.js
 │   │   │   ├── EditEmployee.js
 │   │   │   └── Login.js
-|   |   |   └── Register.js
+│   │   │   └── Register.js
 │   │   ├── App.css
 │   │   ├── index.js
 │   │   └── setupProxy.js
-|   |── package.json
+│   └── node_modules/
 ├── uploads/
+│   ├── 1722543773587.jpg
+│   └── 1722544091948.jpg
 ├── .env
-├── .gitignore
+├── package.json
 ├── README.md
 └── package-lock.json
+
 ```
 
 ### Backend
