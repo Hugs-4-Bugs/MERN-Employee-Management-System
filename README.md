@@ -9,6 +9,27 @@ This project is a MERN stack application for managing employee records. It inclu
 ## Project Structure
 
 
+
+```
+src/
+|-- components/
+|   |-- Login.js
+|   |-- Login.css
+|   |-- Dashboard.js
+|   |-- Dashboard.css
+|   |-- CreateEmployee.js
+|   |-- CreateEmployee.css
+|   |-- EmployeeList.js
+|   |-- EmployeeList.css
+|   |-- EditEmployee.js
+|   |-- EditEmployee.css
+|-- App.js
+|-- index.js
+```
+
+
+
+
 ```
 mern-employee-management/
 ├── backend/
