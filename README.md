@@ -12,19 +12,24 @@ This project is a MERN stack application for managing employee records. It inclu
 
 ```
 src/
-|-- components/
-|   |-- Login.js
-|   |-- Login.css
-|   |-- Dashboard.js
-|   |-- Dashboard.css
-|   |-- CreateEmployee.js
-|   |-- CreateEmployee.css
-|   |-- EmployeeList.js
-|   |-- EmployeeList.css
-|   |-- EditEmployee.js
-|   |-- EditEmployee.css
-|-- App.js
-|-- index.js
+│
+├── components/
+│   ├── Dashboard.js
+│   ├── EmployeeList.js
+│   ├── CreateEmployee.js
+│   ├── EditEmployee.js
+│   ├── Login.js
+│   ├── Register.js
+│   ├── Navbar.js
+│   └── styles/
+│       ├── Login.css
+│       ├── Register.css
+│       ├── Dashboard.css
+│       ├── EmployeeList.css
+│       └── CreateEmployee.css
+│
+└── App.js
+
 ```
 
 
