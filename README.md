@@ -21,12 +21,25 @@ mern-employee-management/
 │   ├── routes/
 │   │   ├── employees.js
 │   │   └── users.js
+│   ├── uploads/
+|   |   └──  All the uploaded documents/files/images will be stored here uploaded via backend
+│   ├── .env
 │   └── server.js
 ├── frontend/
+│   ├── build/
+│   ├── node_modules/
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
 │   │   ├── components/
+│   │   |   |   └── styles/
+│   │   │   |        ├── App.css
+│   │   │   |        ├── CreateEmployee.css
+│   │   │   |        ├── Dashboard.css
+│   │   │   |        ├── EditEmployee.css
+│   │   │   |        ├── Login.css
+│   │   │   |        ├── NotFound.css
+│   │   │   |        └── Register.css
 │   │   │   ├── App.js
 │   │   │   ├── CreateEmployee.js
 │   │   │   ├── Dashboard.js
@@ -34,12 +47,14 @@ mern-employee-management/
 │   │   │   ├── Login.js
 │   │   │   ├── NotFound.js
 │   │   │   └── Register.js
-│   │   ├── App.css
+│   │   └── App.js
+│   │   └── api.js
 │   │   └── index.js
 │   │   └── setupProxy.js
+|   |── babel.config.js
 |   |── package.json
 ├── uploads/
-├── .env
+|   |  └── All the uploaded documents/files/images will be stored here uploaded via frontend
 ├── .gitignore
 ├── README.md
 └── package-lock.json
