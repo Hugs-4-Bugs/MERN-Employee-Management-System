@@ -331,3 +331,78 @@ Feel free to submit issues or pull requests. Your contributions are welcome!
 
 This project is licensed under the MIT License.
 
+
+
+
+
+
+### Given Task :
+
+Login page
+            username
+            password
+
+             Login // this is login button
+
+
+Dashboard
+Home         EmployeeList         Suruchi Sharma          Logout
+
+                welcome admin pannel
+
+NOTE: Test to be created in MERN for the panel while for API's you need to either use API's built on Node
+validation: Validation Reuired on txtbox (server side Validation/JavaScript/J-Query), Check login valid or not if valid then go to DashBord else alert invalid login details, Manage User Name on Dashboard by local storage or cokies
+
+
+
+
+CreateEmployee
+
+ Home         EmployeeList         Suruchi Sharma          Logout
+
+Name   textbox
+Email    textbox
+Mobile no    textbox
+Designation    HR/Manager/Sales/Developer     dropdown
+Gender   M/F.     Radio Button
+Course    MCA/BCA/BE/B-Tech     Checkbox
+Image Upload      .....        file upload
+
+                         Submit   // this is submit button
+
+Note:  Validation Reuired in all fields (server side Validation/JavaScript/J-Query)
+           Email validate, Email Duplicate Check, Only Upload jpg/png file
+
+
+
+
+EmployeeList
+ Home                  EmployeeList                   Suruchi Sharma                      Logout
+            Total count: 4                   Create Employee (this btn should give option to create emp)
+             Search  [ enter search keyword]
+
+UniqueId  Image Name Email MobileNo Designation gender Course Createdate  Action
+1    ........................//some info.............................................................................. edit-delete
+2    ........................//some info.............................................................................. edit-delete
+3    ........................//some info.............................................................................. edit-delete
+4    ........................//some info.............................................................................. edit-delete
+
+
+
+
+
+
+
+EditEmployee
+ Home                  EmployeeList                 Suruchi Sharma                      Logout
+
+
+Name        Prabhat Kumar
+Email         hcgupta@cstech.in
+Mobile No  954010044
+Designation.   HR/Manager/sales    dropdown
+Gender       M/F       Checkbox
+Img Upload    .....        File Upload
+
+          Update  //this is update button
+
