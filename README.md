@@ -9,32 +9,6 @@ This project is a MERN stack application for managing employee records. It inclu
 ## Project Structure
 
 
-
-```
-src/
-│
-├── components/
-│   ├── Dashboard.js
-│   ├── EmployeeList.js
-│   ├── CreateEmployee.js
-│   ├── EditEmployee.js
-│   ├── Login.js
-│   ├── Register.js
-│   ├── Navbar.js
-│   └── styles/
-│       ├── Login.css
-│       ├── Register.css
-│       ├── Dashboard.css
-│       ├── EmployeeList.css
-│       └── CreateEmployee.css
-│
-└── App.js
-
-```
-
-
-
-
 ```
 mern-employee-management/
 ├── backend/
@@ -49,10 +23,6 @@ mern-employee-management/
 │   │   └── users.js
 │   └── server.js
 ├── frontend/
-│   ├── build/
-│   │   ├── static/
-│   │   │   └── asset-manifest.json
-│   │   └── index.html
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
@@ -61,20 +31,18 @@ mern-employee-management/
 │   │   │   ├── CreateEmployee.js
 │   │   │   ├── Dashboard.js
 │   │   │   ├── EditEmployee.js
-│   │   │   └── Login.js
+│   │   │   ├── Login.js
+│   │   │   ├── NotFound.js
 │   │   │   └── Register.js
 │   │   ├── App.css
-│   │   ├── index.js
+│   │   └── index.js
 │   │   └── setupProxy.js
-│   └── node_modules/
+|   |── package.json
 ├── uploads/
-│   ├── 1722543773587.jpg
-│   └── 1722544091948.jpg
 ├── .env
-├── package.json
+├── .gitignore
 ├── README.md
 └── package-lock.json
-
 ```
 
 ### Backend

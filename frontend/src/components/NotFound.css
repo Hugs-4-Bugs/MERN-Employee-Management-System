@@ -1,0 +1,20 @@
+/* src/components/NotFound.css */
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .not-found-container h2 {
+    font-size: 2rem;
+    color: #ff0000; /* Red color for visibility */
+  }
+  
+  .not-found-container p {
+    font-size: 1.2rem;
+  }
+  
+  .not-found-container a {
+    color: #0000ff; /* Blue color for links */
+    text-decoration: underline;
+  }
+  
